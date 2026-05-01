@@ -31,7 +31,7 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[70vh]">
           <div className="relative h-[50vh] lg:h-auto overflow-hidden">
             <Image
-              src="/"
+              src="/images/hero.png"
               alt="Photographer"
               fill
               className="object-cover object-top"
@@ -41,16 +41,16 @@ export default function AboutPage() {
 
           <div className="bg-[#EDE5D8] flex flex-col justify-center px-10 sm:px-16 py-16">
             <p className="font-display text-2xl sm:text-3xl text-[#3B2F1E] leading-snug mb-6 italic">
-              I do not just take photographs — I collect the light that makes you, you.
+              I do not just take photographs, I collect the light that makes you, you.
             </p>
             <p className="text-[#6B5744] text-sm leading-relaxed mb-4 font-light">
-              Hello, I am <strong className="text-[#3B2F1E] font-semibold">Sarah Lumière</strong> — a Lagos-based photographer with over 8 years of experience telling stories through light, composition, and emotion.
+              Hello, I am <strong className="text-[#3B2F1E] font-semibold">Temitope JohnJoel</strong>, a Abuja-based photographer with over 8 years of experience telling stories through light, composition, and emotion.
             </p>
             <p className="text-[#6B5744] text-sm leading-relaxed mb-4 font-light">
               My work spans weddings, portraits, fashion editorials, and landscapes. Every shoot is an opportunity to find something honest, something fleeting, and make it last forever.
             </p>
             <p className="text-[#6B5744] text-sm leading-relaxed font-light">
-              Whether I am in a bridal suite or a dusty field at golden hour, my philosophy is the same — be present, be patient, and let the moment speak.
+              Whether I am in a bridal suite or a dusty field at golden hour, my philosophy is the same - be present, be patient, and let the moment speak.
             </p>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function AboutPage() {
               I believe the best photographs happen when people forget the camera exists. My style leans into natural light, authentic moments, and quiet beauty — never forced, never staged.
             </p>
             <p className="text-[#6B5744] text-sm leading-relaxed mb-8 font-light">
-              I have shot in the heart of Lagos markets, on the shores of Tarkwa Bay, in studio setups, and in the aisle of intimate garden weddings. Every environment tells a different story.
+              I have shot in the heart of Abuja markets, on the shores of the capital, in studio setups, and in the aisle of intimate garden weddings. Every environment tells a different story.
             </p>
             <Link
               href="/gallery"
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 gap-3">
             <div className="relative h-64 overflow-hidden">
               <Image
-                src="/"
+                src="/images/about1.jpg"
                 alt="Behind the scenes"
                 fill
                 className="object-cover"
@@ -101,7 +101,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-64 mt-8 overflow-hidden">
               <Image
-                src="/"
+                src="/images/about2.jpg"
                 alt="Portrait session"
                 fill
                 className="object-cover"
@@ -128,7 +128,7 @@ export default function AboutPage() {
               <h2 className="font-display text-3xl text-[#3B2F1E]">My Gear</h2>
             </div>
             <p className="text-[#6B5744] text-sm font-light max-w-xs">
-              Premium equipment for every kind of shoot — because your moments deserve the best.
+              Premium equipment for every kind of shoot - because your moments deserve the best.
             </p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">

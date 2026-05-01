@@ -6,21 +6,21 @@ import { useState } from "react";
 const categories = ["All", "Wedding", "Portrait", "Fashion", "Landscape", "Lifestyle"];
 
 const photos = [
-  { src: "/", cat: "Wedding", size: "tall" },
-  { src: "/", cat: "Portrait", size: "square" },
-  { src: "/", cat: "Fashion", size: "square" },
-  { src: "/", cat: "Landscape", size: "wide" },
-  { src: "/", cat: "Wedding", size: "square" },
-  { src: "/", cat: "Portrait", size: "tall" },
-  { src: "/", cat: "Fashion", size: "square" },
-  { src: "/", cat: "Landscape", size: "wide" },
-  { src: "/", cat: "Lifestyle", size: "square" },
-  { src: "/", cat: "Wedding", size: "square" },
-  { src: "/", cat: "Fashion", size: "tall" },
-  { src: "/", cat: "Landscape", size: "wide" },
-  { src: "/", cat: "Lifestyle", size: "square" },
-  { src: "/", cat: "Portrait", size: "square" },
-  { src: "/", cat: "Lifestyle", size: "wide" },
+  { src: "/images/feature5.jpg", cat: "Wedding", size: "tall" },
+  { src: "/images/feature2.jpg", cat: "Portrait", size: "square" },
+  { src: "/images/feature4.jpg", cat: "Fashion", size: "square" },
+  { src: "/images/feature1.jpg", cat: "Landscape", size: "wide" },
+  { src: "/images/feature6.jpg", cat: "Wedding", size: "square" },
+  { src: "/images/feature7.jpg", cat: "Portrait", size: "tall" },
+  { src: "/images/feature9.jpg", cat: "Fashion", size: "square" },
+  { src: "/images/feature8.jpg", cat: "Landscape", size: "wide" },
+  { src: "/images/feature3.jpg", cat: "Lifestyle", size: "square" },
+  { src: "/images/feature15.png", cat: "Wedding", size: "square" },
+  { src: "/images/feature10.jpg", cat: "Fashion", size: "tall" },
+  { src: "/images/feature13.jpg", cat: "Landscape", size: "wide" },
+  { src: "/images/feature11.jpg", cat: "Lifestyle", size: "square" },
+  { src: "/images/feature14.jpg", cat: "Portrait", size: "square" },
+  { src: "/images/feature12.jpg", cat: "Lifestyle", size: "wide" },
 ];
 
 const sizeClass: Record<string, string> = {

@@ -27,11 +27,11 @@ const services = [
 ];
 
 const featured = [
-  { src: "/", label: "Wedding", span: "col-span-2 row-span-2" },
-  { src: "/", label: "Portrait", span: "" },
-  { src: "/", label: "Fashion", span: "" },
-  { src: "/", label: "Landscape", span: "" },
-  { src: "/", label: "Lifestyle", span: "" },
+  { src: "/images/feature5.jpg", label: "Wedding", span: "col-span-2 row-span-2" },
+  { src: "/images/feature2.jpg", label: "Portrait", span: "" },
+  { src: "/images/feature4.jpg", label: "Fashion", span: "" },
+  { src: "/images/feature1.jpg", label: "Landscape", span: "" },
+  { src: "/images/feature3.jpg", label: "Lifestyle", span: "" },
 ];
 
 export default function HomePage() {
